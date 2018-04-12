@@ -1,6 +1,6 @@
 # windows-autoshutdown
 
-The `shutdownTime.bat` file currently shutsdown the windows computer if the computer's clock's hour field is equal to or under 15 i.e. 3 pm (1500 hrs). To change this, change the `15` (based on a 24 hour clock) in the 2nd line of `shutdownTime.bat`.
+The `shutdownTime.bat` file currently shutsdown the windows computer if the computer's clock's hour field is equal to or under 15 i.e. 3 pm (This effectively means the computer will shut down if run between midnight and 3.59 pm). To change this, change the `15` (based on a 24 hour clock) in the 2nd line of `shutdownTime.bat`.
 
 
 To run this as soon as windows boots, add the `shutdownTime.bat` file to your startup folder.
